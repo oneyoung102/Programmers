@@ -1,3 +1,6 @@
+//2025-11-17 12:21:13
+//https://school.programmers.co.kr/learn/courses/30/lessons/49995
+
 #include <vector>
 
 using namespace std;
