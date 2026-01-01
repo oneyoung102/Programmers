@@ -1,3 +1,6 @@
+//2025-12-01 15:09:33
+//https://school.programmers.co.kr/learn/courses/30/lessons/43236
+
 #include <vector>
 #include <algorithm>
 
