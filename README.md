@@ -8,4 +8,4 @@
 
 ☑️ the name of nested files : "[the name of a coding test].cpp" or " ~ .c";
 
-‼️ 1, 2, 3lv files did not updated yet;
+‼️ 1, 2, 3lv files were not updated yet;
