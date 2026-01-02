@@ -1,11 +1,11 @@
 # Programmers
 
-❕the structure of files❕
+ℹ️ the structure of files ℹ️
 
-the name : "[n]lv" ... here, [n] means an integer from 0 to 5;
+☑️ the name : "[n]lv" ... here, [n] means an integer from 0 to 5;
 
-this file includes nested files and README.md;
+☑️ this file includes nested files and README.md;
 
-the name of nested files : "[the name of a coding test].cpp" or " ~ .c";
+☑️ the name of nested files : "[the name of a coding test].cpp" or " ~ .c";
 
-1,2,3lv file did not updated yet;
+‼️ 1, 2, 3lv files did not updated yet;
