@@ -1,0 +1,23 @@
+#include <vector>
+#include <string>
+
+using namespace std;
+
+
+//현제는 예시입니다. soultion 함수를 수정하세요
+int solution(int n, vector<int> v)
+{
+    return n+v[0];
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#define ARGUMENTS                ((  5,[1,2,3,4] )) // <- 괄호 두 쌍 안에 인수 입력
+#define TYPE_OF_ARGUMENTS        int,vector<int>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "FunctionReturnPrint.cpp"
+int main()
+{
+    FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
+    return 0;
+}
