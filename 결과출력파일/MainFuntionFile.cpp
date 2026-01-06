@@ -4,7 +4,7 @@
 using namespace std;
 
 
-//현재는 예시입니다. soultion 함수를 수정하세요
+//현재는 예시입니다. solution 함수를 수정하세요
 int solution(int n, vector<int> v)
 {
     return n+v[0];
