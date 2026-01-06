@@ -15,7 +15,7 @@ int solution(int n, vector<int> v)
 #define TYPE_OF_ARGUMENTS        int,vector<int>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include "FunctionReturnPrint.cpp"
+#include "PrintFunctionReturn.cpp"
 int main()
 {
     FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
