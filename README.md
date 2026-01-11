@@ -1,3 +1,3 @@
 # Programmers
 
-1lv, 2lv are not updated yet
+2lv are not updated yet
