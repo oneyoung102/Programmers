@@ -61,7 +61,7 @@
   ```c++
   answer : 6
   ```
-  > 현재 출력은 예시 solution일 떄의 결과값입니다.
+  > 현재 출력은 예시 solution일 때의 결과값입니다.
   > 구체적인 출력을 보시려면 [여기](https://github.com/oneyoung102/Programmers/blob/main/결과출력파일/README.md#출력-예시)를 클릭하세요.
 
 
