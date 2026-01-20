@@ -45,31 +45,31 @@
   
 - #### 테스트케이스 인수 전달하기   
 
-두 괄호 쌍 `((`, `))` 안에, 앞서 작성한 매게변수 타입과 맞는 인수를 입력합니다.   
-```c++
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#define ARGUMENTS                ((  5,[1,2,3,4] )) // <- 괄호 두 쌍 안에 인수 입력
-```
-> 두 괄호 옆 공백은 가독성을 위한 것입니다.
-
-> **프로그래머스**에서는 벡터를 표시하기 위해 `[ ... ]`를 사용합니다. 그러나 c++에서는 그렇지 않습니다.
-> **PrintFunctionReturn.cpp**는 이를 고려하여 인수 입력 시에, `[ ... ]`, `{ ... }` 모두를 사용할 수 있게 만들어졌습니다.   
-
+  두 괄호 쌍 `((`, `))` 안에, 앞서 작성한 매게변수 타입과 맞는 인수를 입력합니다.   
+  ```c++
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  #define ARGUMENTS                ((  5,[1,2,3,4] )) // <- 괄호 두 쌍 안에 인수 입력
+  ```
+  > 두 괄호 옆 공백은 가독성을 위한 것입니다.
+  
+  > **프로그래머스**에서는 벡터를 표시하기 위해 `[ ... ]`를 사용합니다. 그러나 c++에서는 그렇지 않습니다.
+  > **PrintFunctionReturn.cpp**는 이를 고려하여 인수 입력 시에, `[ ... ]`, `{ ... }` 모두를 사용할 수 있게 만들어졌습니다.   
+  
 
 
 - #### 함수명 변경 **(불필요)**
 
-**프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,   
-
-`FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
-```c++
-#include "PrintFunctionReturn.cpp"
-int main()
-{
-    FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
-    return 0;
-}
-```
+  **프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,   
+  
+  `FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
+  ```c++
+  #include "PrintFunctionReturn.cpp"
+  int main()
+  {
+      FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
+      return 0;
+  }
+  ```
 
 ## PrintFunctionReturn.cpp   
 
