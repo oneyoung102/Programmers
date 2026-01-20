@@ -8,6 +8,7 @@
   - MainFunctionFile.cpp
   - PrintFunctionReturn.cpp
 
+<hr/>
 
 ## MainFunctionFile.cpp
 
@@ -80,6 +81,8 @@
       return 0;
   }
   ```
+  
+  <hr/>
 
 ## PrintFunctionReturn.cpp   
 
