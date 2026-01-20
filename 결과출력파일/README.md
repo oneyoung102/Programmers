@@ -17,7 +17,7 @@
 
 - #### 준비과정
 
-  1. **프로그래머스** 코딩테스트의 함수 복사하여 붙여넣기
+  1. **프로그래머스** 코딩테스트의 함수 작성하기
   ```c++
   //현재는 예시입니다. solution 함수를 수정하세요
   int solution(int n, vector<int> v)
@@ -30,11 +30,12 @@
   ```c++
   #include <vector>
   #include <string>
+  ...
   ```   
      
-  3. 매게변수의 자료형 작성하기   
+  3. 매게변수의 자료형 입하기   
   `int solution(int n, vector<int> v)`에서 `int`와 `vector<int>`를 복사하여 `,`으로 연결하여   
-  `#define TYPE_OF_ARGUMENTS` 옆에 한 칸 이상의 공백을 두고 작성합니다.
+  `#define TYPE_OF_ARGUMENTS` 옆에 한 칸 이상의 공백을 두고 입력합니다.
   
   ```c++
   #define TYPE_OF_ARGUMENTS        int,vector<int>
