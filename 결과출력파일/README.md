@@ -53,7 +53,8 @@
 
 - 함수명 변경 **(불필요)**
 
-**프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,
+**프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,   
+
 `FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
 ```c++
 #include "PrintFunctionReturn.cpp"
