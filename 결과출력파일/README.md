@@ -1,9 +1,9 @@
 # 결과 출력 파일   
 
 > 본 파일은 **프로그래머스** 코딩테스트의 테스트케이스 실행 결과를 출력하기 위해 만들어졌습니다.*
-
+<hr/>
 - 파일 구성
   - MainFunctionFile.cpp
-  - PrintFunctionReturn.cpp
+  - PrintFunctionReturn.cpp 
 <hr/>
 
