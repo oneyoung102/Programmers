@@ -33,7 +33,7 @@
   ...
   ```   
      
-  3. 매게변수의 자료형 입하기   
+  3. 매게변수의 자료형 입력하기   
   `int solution(int n, vector<int> v)`에서 `int`와 `vector<int>`를 복사하여 `,`으로 연결하여   
   `#define TYPE_OF_ARGUMENTS` 옆에 한 칸 이상의 공백을 두고 입력합니다.
   
