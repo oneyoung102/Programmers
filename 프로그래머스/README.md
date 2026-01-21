@@ -19,7 +19,7 @@
   - 5
   - 유료 문제
     - coding_1
-      - test1-1.cpp
+      - coding_test1-1.cpp
       - ...
     - ...
  <hr/>
