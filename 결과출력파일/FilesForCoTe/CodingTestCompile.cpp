@@ -1,17 +1,21 @@
 #include <vector>
-#include <climits>
+#include <string>
 
 using namespace std;
 
-vector<vector<int>> solution(int a, int b, vector<int> g, vector<int> s, vector<int> w, vector<int> t) {
-    return {{1,2,3},{1,2,3}};
+
+//현재는 예시입니다. solution 함수를 수정하세요
+int solution(int n, vector<int> v)
+{
+    return n+v[0];
 }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#define ARGUMENTS                ((  10,10,[100],[100],[11],[11]	 )) // <- 괄호 두 쌍 안에 인수 입력
-#define TYPE_OF_ARGUMENTS        int, int, vector<int>, vector<int>, vector<int>, vector<int>
+#define ARGUMENTS                ((  5,[1,2,3,4] )) // <- 괄호 두 쌍 안에 인수를 입력하세요
+#define TYPE_OF_ARGUMENTS        int,vector<int>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include "FunctionReturnPrint.cpp"
+#include "PrintFunctionReturn.cpp"
 int main()
 {
     FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
