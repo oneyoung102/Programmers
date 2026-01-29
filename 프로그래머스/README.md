@@ -10,8 +10,7 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/181832.%E2%80%85정수를%E2%80%85나선형으로%E2%80%85배치하기)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/e13285ce-b077-469c-9525-7624f41b3af9" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/120875.%E2%80%85평행)
-### [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3b5ac135-885d-4d32-9330-7099e3065eff" />
-](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/181916.%E2%80%85주사위%E2%80%85게임%E2%80%853)
+### [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3b5ac135-885d-4d32-9330-7099e3065eff" />](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/181916.%E2%80%85주사위%E2%80%85게임%E2%80%853)
 
 <hr/>
 
