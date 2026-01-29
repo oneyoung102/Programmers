@@ -1,7 +1,12 @@
 # 프로그래머스
 
 [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/545b2c45-9f86-4a6e-8aed-cbe6177543dd" />
-](#0lv) [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/f8ead2e1-7008-4f72-a09d-919d9afcd567" />](#1lv)
+](#0lv) [<img width="51" height="24" alt="image" src="https://github.com/user-attachments/assets/04c6af51-5203-4601-92f6-1f9ea7930ec8" />
+](#1lv) [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/f02baacf-ab7b-41bc-bc70-d0b0e1979088" />
+](#2lv) [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/44cc1a74-5569-45c3-b8e8-8ae13cf9690e" />
+](#3lv) [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/fb09d9f1-fe9c-47ff-96ac-73c423c3e8a9" />
+](#4lv) [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/76171f99-84bc-4b4f-8e8d-627abd35f93f" />
+](#5lv)
 
 <img width="801" height="37" alt="image" src="https://github.com/user-attachments/assets/29968b9a-13fa-4fcd-8c03-36655367b887" />
 
@@ -15,6 +20,10 @@
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3b5ac135-885d-4d32-9330-7099e3065eff" />](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/181916.%E2%80%85주사위%E2%80%85게임%E2%80%853)
 
 <p id="1lv"><p/>
+<p id="2lv"><p/>
+<p id="3lv"><p/>
+<p id="4lv"><p/>
+<p id="5lv"><p/>
   
 <hr/>
 
