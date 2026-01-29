@@ -1,5 +1,4 @@
 # Programmers
 
-| $\color{lightgray} 순위  $ | $\color{lightgray} 점수  $ | $\color{lightgray}해결한\ 문제$ |
-| :--- | :--- | :--- |
-| 510위 | 1,829점 | 266개 |
+<img width="308" height="103" alt="image" src="https://github.com/user-attachments/assets/fac6b002-7db9-4cd0-baf6-17adc9c2f7de" />
+
