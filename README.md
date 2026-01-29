@@ -1,4 +1,7 @@
 # Programmers
 
-<span style="color: #808080">순위      점수      해결한 문제</span>   
-510위       1,829점      266개
+| $\color{gray} 순위  $ | $\color{gray} 점수  $ | $\color{gray}해결한 문제$ |
+| :--- | :--- | :--- |
+| 510위 | 1,829점 | 266개 |
+
+- [x]
