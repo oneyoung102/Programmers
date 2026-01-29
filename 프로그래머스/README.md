@@ -1,7 +1,7 @@
 # 프로그래머스
 
 
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/9b01b85e-9657-4f5e-b334-40549b63507e" />](google.com)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/9b01b85e-9657-4f5e-b334-40549b63507e" />](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/120956.%E2%80%85옹알이%E2%80%85（1）)
 
 
 <hr/>
