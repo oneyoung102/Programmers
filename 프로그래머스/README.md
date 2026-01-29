@@ -2,6 +2,10 @@
 
 
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/9b01b85e-9657-4f5e-b334-40549b63507e" />](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/120956.%E2%80%85옹알이%E2%80%85（1）)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/25064650-60fb-4286-abcc-995d57f5cf1a" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/120875.%E2%80%85평행)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/e13285ce-b077-469c-9525-7624f41b3af9" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/0/181832.%E2%80%85정수를%E2%80%85나선형으로%E2%80%85배치하기)
 
 
 <hr/>
