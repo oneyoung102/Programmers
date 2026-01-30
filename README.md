@@ -32,7 +32,7 @@
 
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/5630ade5-34a7-41c1-97ee-6ca779b9b7a6" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/258712.%E2%80%85가장%E2%80%85많이%E2%80%85받은%E2%80%85선물)
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/0cd678e4-20f1-4d10-8255-a3cf054fe393" />
+[<img width="802" height="61" alt="image" src="https://github.com/user-attachments/assets/6ee050b4-5602-496c-9907-dbd1bbd2651f" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/389478.%E2%80%85택배%E2%80%85상자%E2%80%85꺼내기)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/92056282-0172-4173-87f4-83058f2973b4" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/340213.%E2%80%85［PCCP%E2%80%85기출문제］%E2%80%851번%E2%80%85%EF%BC%8F%E2%80%85동영상%E2%80%85재생기)
@@ -60,7 +60,7 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/64061.%E2%80%85크레인%E2%80%85인형뽑기%E2%80%85게임)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/fdf7b330-f323-4052-a6ee-e289b00a2bbf" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/67256.%E2%80%85［카카오%E2%80%85인턴］%E2%80%85키패드%E2%80%85누르기)
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/235c967b-c6f7-416e-9091-5cd3af047137" />
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/248a5a59-6d55-4043-9516-4ad1b16954ed" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/118666.%E2%80%85성격%E2%80%85유형%E2%80%85검사하기)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/fad8037e-4062-42bc-8a51-c096791f5515" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/250121.%E2%80%85［PCCE%E2%80%85기출문제］%E2%80%8510번%E2%80%85%EF%BC%8F%E2%80%85데이터%E2%80%85분석)
@@ -90,7 +90,7 @@
 
 <p id="4lv"><p/>
   
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/32dbb364-1288-4cb9-bca7-93fc50cd29ed" />
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/7e3259de-4806-4a34-ba0f-d4b2f8195749" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/4/62050.%E2%80%85지형%E2%80%85이동)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/63fa857b-5a3d-48cc-8da1-b485eb204c8a" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/4/68937.%E2%80%85트리%E2%80%85트리오%E2%80%85중간값)
