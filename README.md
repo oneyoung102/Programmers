@@ -266,8 +266,7 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/42884.%E2%80%85단속카메라)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/e48900fe-c119-4b79-bbcd-cbe13dc01b93" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/12987.%E2%80%85숫자%E2%80%85게임)
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/52ed6238-1314-42c9-bdad-e08b60fb16b7" />
-](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/42898.%E2%80%85등굣길)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/0317820e-fab9-493e-8728-45e2425b015d" />](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/42898.%E2%80%85등굣길)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/bdc595f7-7953-4715-87e4-0c40b1c9ee48" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/42628.%E2%80%85이중우선순위큐)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/972d68a6-077c-49e8-aede-17a93ccb014e" />
