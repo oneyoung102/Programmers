@@ -235,7 +235,7 @@
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/03d6840b-2dd9-44ae-81fd-fc04234e1fc9" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/42883.%E2%80%85큰%E2%80%85수%E2%80%85만들기)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/1c0fe5c1-c51a-42fa-984b-523baef274d3" />
-]()
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/68645.%E2%80%85삼각%E2%80%85달팽이)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/200bc751-15b4-42c6-a612-f4ceacb4428c" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/148653.%E2%80%85마법의%E2%80%85엘리베이터)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/a9a4dc75-ec40-4974-a0d1-9a176d4a5987" />
