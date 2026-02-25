@@ -204,7 +204,7 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/154540.%E2%80%85무인도%E2%80%85여행)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/fc40d76c-e7bd-4d5b-8bf4-10a7f4533fdd" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/12936.%E2%80%85줄%E2%80%85서는%E2%80%85방법)
-[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/513cbcef-655f-499a-aa62-45aedbf9fdfe" />
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/6a3d6c30-8ff3-4419-a637-eb0deee16cc2" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/77485.%E2%80%85행렬%E2%80%85테두리%E2%80%85회전하기)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/7168d8bd-fdeb-4e13-b8f2-c48d24816a8c" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/67257.%E2%80%85［카카오%E2%80%85인턴］%E2%80%85수식%E2%80%85최대화)
