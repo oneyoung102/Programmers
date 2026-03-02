@@ -8,7 +8,7 @@
 
 <hr/>
 
-> 2lv : only 1,2,3page updated
+> 2lv : 5,6page left
 
 [<img width="53" height="24" alt="image" src="https://github.com/user-attachments/assets/545b2c45-9f86-4a6e-8aed-cbe6177543dd" />
 ](#0lv) [<img width="51" height="24" alt="image" src="https://github.com/user-attachments/assets/4ea70662-7c47-47f3-99f9-8717d79d0083" />
