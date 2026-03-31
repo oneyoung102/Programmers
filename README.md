@@ -296,7 +296,9 @@
 []()
 []()
 []()
-[<img id="3lv" width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/9e088b49-f9d6-40cf-bf6b-970b8182be37" /><!--3레벨-->
+[<img img id="3lv" width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/ecec6d3f-fe78-4f86-9b29-e3197f67f754" />
+](https://github.com/oneyoung102/Programmers/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/468381.%E2%80%85%EA%B8%B0%EC%B0%A8%E2%80%85%EC%84%A0%EB%A1%9C)<!--3레벨-->
+[< width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/9e088b49-f9d6-40cf-bf6b-970b8182be37" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1830.%E2%80%85브라이언의%E2%80%85고민)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3f212843-9541-4fd4-ab4d-fb55b3376937" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1838.%E2%80%85몸짱%E2%80%85트레이너%E2%80%85라이언의%E2%80%85고민)
