@@ -374,6 +374,10 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1837.%E2%80%85GPS)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/77d68653-d29f-4805-be9e-94e36e275bea" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1836.%E2%80%85리틀%E2%80%85프렌즈%E2%80%85사천성)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/2fca220e-7d5f-4c68-ad25-82e8a98732f1" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/84021.%E2%80%85퍼즐%E2%80%85조각%E2%80%85채우기)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/b7d9fe3a-d189-49b0-985a-d7342b06ff12" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/92345.%E2%80%85사라지는%E2%80%85발판)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/52cf00c2-57bd-41eb-92d9-f9d760bc70cd" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/214288.%E2%80%85상담원%E2%80%85인원)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/72cbe5d5-fbdc-4d35-aa99-c3668ed3a3c7" />
