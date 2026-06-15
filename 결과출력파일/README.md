@@ -5,12 +5,12 @@
 <hr/>
 
 - 결과출력파일
-  - MainFunctionFile.cpp
-  - PrintFunctionReturn.cpp
+  - codingTest.cpp
+  - printFunctionReturn.hpp
 
 <hr/>
 
-## MainFunctionFile.cpp
+## codingTest.cpp
 
 > 사용자가 변경해야 할 부분이 포함된 파일입니다.
 
@@ -58,11 +58,11 @@
   > 두 괄호 옆 공백은 가독성을 위한 것입니다.
   
   > **프로그래머스**에서는 벡터를 표시하기 위해 `[ ... ]`를 사용하나 c++에서는 그렇지 않습니다.
-  > **PrintFunctionReturn.cpp**는 이를 고려하여 인수 입력 시에, `[ ... ]`, `{ ... }` 모두를 사용할 수 있게 만들어졌습니다.   
+  > *printFunctionReturn.hpp**는 이를 고려하여 인수 입력 시에, `[ ... ]`, `{ ... }` 모두를 사용할 수 있게 만들어졌습니다.   
   
 - #### 실행하기  
 
-  **PrintFunctionReturn.cpp**를 같은 프로젝트에 두고 **MainFunctionFile.cpp**를 실행하여 결과를 확인합니다.
+  **printFunctionReturn.hpp**를 같은 프로젝트에 두고 **codingTest.cpp**를 실행하여 결과를 확인합니다.
   ```c++
   answer : 6
   ```
@@ -74,19 +74,19 @@
 
   **프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,   
   
-  `FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
+  `printFunctionReturn<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
   ```c++
   #include "PrintFunctionReturn.cpp"
   int main()
   {
-      FunctionReturnPrint<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
+      printFunctionReturn<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
       return 0;
   }
   ```
   
 <hr/>
 
-## PrintFunctionReturn.cpp   
+## printFunctionReturn.cpp   
 
 > 사용자가 절대로 변경하면 안 되는 파일입니다.
 
