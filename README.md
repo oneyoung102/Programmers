@@ -126,8 +126,10 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/147355.%E2%80%85크기가%E2%80%85작은%E2%80%85부분문자열)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/7eb3b31b-ae16-41ce-8e09-412b49c65584" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/1/12922.%E2%80%85수박수박수박수박수박수？)
-[<img id="2lv" width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/4bb01c72-4a37-4d7e-a897-5277b082a7ae" />
-](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/468372.%E2%80%85리프%E2%80%85노드%E2%80%85수%E2%80%85최대화)<!--2레벨-->
+[<img id="2lv" width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/e0d16e69-38b2-4e92-9ab1-15ba9e5c1811" />
+](https://github.com/oneyoung102/Programmers/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/468379.%E2%80%85%EC%84%A0%EC%9D%B8%EC%9E%A5%E2%80%85%EC%88%A8%EA%B8%B0%EA%B8%B0)<!--2레벨-->
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/4bb01c72-4a37-4d7e-a897-5277b082a7ae" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/468372.%E2%80%85리프%E2%80%85노드%E2%80%85수%E2%80%85최대화)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/155e7d41-0b53-4467-9d85-69a4dc648219" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/2/250135.%E2%80%85［PCCP%E2%80%85기출문제］%E2%80%853번%E2%80%85%EF%BC%8F%E2%80%85아날로그%E2%80%85시계)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/b97c84de-0aa1-4565-be54-1771749c5ae4" />
