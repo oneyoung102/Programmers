@@ -372,6 +372,8 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1830.%E2%80%85브라이언의%E2%80%85고민)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3f212843-9541-4fd4-ab4d-fb55b3376937" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1838.%E2%80%85몸짱%E2%80%85트레이너%E2%80%85라이언의%E2%80%85고민)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/68250243-586e-4999-be4c-2334fa4a15e0" />
+](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/131702.%E2%80%85고고학%E2%80%85최고의%E2%80%85발견)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/be9a7d7e-1dc8-4190-a62b-e7a3dc7a7084" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1837.%E2%80%85GPS)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/77d68653-d29f-4805-be9e-94e36e275bea" />
