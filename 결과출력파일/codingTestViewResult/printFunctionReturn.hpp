@@ -7,54 +7,52 @@
 #define STRINGIFY(x) #x
 #define TO_STRING(x) STRINGIFY(x)
 
-using namespace std;
-
 class managingPrinting
 {
     private : 
-        const string AnswerEqualString = "answer : ";
+        const std::string AnswerEqualString = "answer : ";
+        const std::string Blank             = std::string(AnswerEqualString.size(),' ');
         
-        void PrintAnswer(int t){cout << t;}
-        void PrintAnswer(char t){cout <<'\''<< t << '\'';}
-        void PrintAnswer(string t){cout <<'\"'<< t << '\"';}
-        void PrintAnswer(long long t){cout << t;}
-        void PrintAnswer(double t){cout << t;}
+        void PrintAnswer(int t)         {std::cout << t;}
+        void PrintAnswer(char t)        {std::cout <<'\''<< t << '\'';}
+        void PrintAnswer(std::string t) {std::cout <<'\"'<< t << '\"';}
+        void PrintAnswer(long long t)   {std::cout << t;}
+        void PrintAnswer(double t)      {std::cout << t;}
         void PrintAnswer(bool t)
         {
-            if(t) cout << "true";
-            else cout << "false";
+            if(t) std::cout << "true";
+            else  std::cout << "false";
         }
         template<class T>
-        void PrintVector(vector<T>& t)
+        void PrintVector(std::vector<T>& t)
         {
             size_t count = t.size();
             for(T e : t)
             {
                 PrintAnswer(e);
-                if(--count != 0) cout << ", ";
+                if(--count != 0) std::cout << ", ";
             }
         }
-        void PrintAnswer(vector<int>& t){PrintVector<int>(t);}
-        void PrintAnswer(vector<string>& t){PrintVector<string>(t);}
-        void PrintAnswer(vector<long long>& t){PrintVector<long long>(t);}
-        void PrintAnswer(vector<double>& t){PrintVector<double>(t);}
-        void PrintAnswer(vector<bool>& t){PrintVector<bool>(t);}
+        void PrintAnswer(std::vector<int>& t)         {PrintVector<int>(t);}
+        void PrintAnswer(std::vector<std::string>& t) {PrintVector<std::string>(t);}
+        void PrintAnswer(std::vector<long long>& t)   {PrintVector<long long>(t);}
+        void PrintAnswer(std::vector<double>& t)      {PrintVector<double>(t);}
+        void PrintAnswer(std::vector<bool>& t)        {PrintVector<bool>(t);}
         template<class T>
-        void PrintMatrix(vector<T>& t)
+        void PrintMatrix(std::vector<T>& t)
         {
             size_t count = t.size();
-            const string Blank = string(AnswerEqualString.size(),' ');
             for(T& v : t)
             {
                 PrintAnswer(v); 
-                if(--count != 0) cout << endl << Blank;
+                if(--count != 0) std::cout << std::endl << Blank;
             }
         }
-        void PrintAnswer(vector<vector<int>>& t){PrintMatrix<vector<int>>(t);}
-        void PrintAnswer(vector<vector<string>>& t){PrintMatrix<vector<string>>(t);}
-        void PrintAnswer(vector<vector<long long>>& t){PrintMatrix<vector<long long>>(t);}
-        void PrintAnswer(vector<vector<double>>& t){PrintMatrix<vector<double>>(t);}
-        void PrintAnswer(vector<vector<bool>>& t){PrintMatrix<vector<bool>>(t);}  
+        void PrintAnswer(std::vector<std::vector<int>>& t)         {PrintMatrix<std::vector<int>>(t);}
+        void PrintAnswer(std::vector<std::vector<std::string>>& t) {PrintMatrix<std::vector<std::string>>(t);}
+        void PrintAnswer(std::vector<std::vector<long long>>& t)   {PrintMatrix<std::vector<long long>>(t);}
+        void PrintAnswer(std::vector<std::vector<double>>& t)      {PrintMatrix<std::vector<double>>(t);}
+        void PrintAnswer(std::vector<std::vector<bool>>& t)        {PrintMatrix<std::vector<bool>>(t);}  
     public :
         managingPrinting(){}
         ~managingPrinting(){}
@@ -62,38 +60,38 @@ class managingPrinting
         template<class T>
         void printReturn(T& t)
         {
-            cout << AnswerEqualString;
+            std::cout << AnswerEqualString;
             PrintAnswer(t);
-            cout << endl;
+            std::cout << std::endl;
             return;
         }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-class managingArgument
+class parsingArguments
 {
     private :
         template<class T>
-        tuple<T> oneArgumentToTuple(string&& arguments){
+        std::tuple<T> oneArgumentToTuple(std::string&& arguments){
             return make_tuple(T{});
         }
-        template<> tuple<int> oneArgumentToTuple<int>(string&& arguments){return make_tuple(stoi(arguments));}
-        template<> tuple<long long> oneArgumentToTuple<long long>(string&& arguments){return make_tuple(stoll(arguments));}
-        template<> tuple<double> oneArgumentToTuple<double>(string&& arguments){return make_tuple(stod(arguments));}
-        template<> tuple<char> oneArgumentToTuple<char>(string&& arguments){return make_tuple(arguments[1]);}
-        template<> tuple<string> oneArgumentToTuple<string>(string&& arguments){return make_tuple(arguments.substr(1,arguments.size()-2));}
-        template<> tuple<bool> oneArgumentToTuple<bool>(string&& arguments)
+        template<> std::tuple<int>         oneArgumentToTuple<int>         (std::string&& arguments){return std::make_tuple(stoi(std::move(arguments)));}
+        template<> std::tuple<long long>   oneArgumentToTuple<long long>   (std::string&& arguments){return std::make_tuple(stoll(std::move(arguments)));}
+        template<> std::tuple<double>      oneArgumentToTuple<double>      (std::string&& arguments){return std::make_tuple(stod(std::move(arguments)));}
+        template<> std::tuple<char>        oneArgumentToTuple<char>        (std::string&& arguments){return std::make_tuple(arguments[1]);}
+        template<> std::tuple<std::string> oneArgumentToTuple<std::string> (std::string&& arguments){return std::make_tuple(arguments.substr(1,arguments.size()-2));}
+        template<> std::tuple<bool>        oneArgumentToTuple<bool>        (std::string&& arguments)
         {
             if(arguments == "true")
-                return make_tuple(true);
-            return make_tuple(false);
+                return std::make_tuple(true);
+            return std::make_tuple(false);
         }
 
         template<class T>
-        vector<T> stringToVector(string&& str)
+        std::vector<T> stringToVector(std::string&& str)
         {
-            vector<T> v;
+            std::vector<T> v;
             int commaPos = 0;
             for(int i = 1 ; i < str.size() ; ++i)
                 if(str[i] == ',' || i == str.size()-1)
@@ -103,16 +101,16 @@ class managingArgument
                 }
             return v;
         }
-        template<> tuple<vector<int>> oneArgumentToTuple<vector<int>>(string&& arguments){return make_tuple(stringToVector<int>(std::move(arguments)));}
-        template<> tuple<vector<long long>> oneArgumentToTuple<vector<long long>>(string&& arguments){return make_tuple(stringToVector<long long>(std::move(arguments)));}
-        template<> tuple<vector<double>> oneArgumentToTuple<vector<double>>(string&& arguments){return make_tuple(stringToVector<double>(std::move(arguments)));}
-        template<> tuple<vector<string>> oneArgumentToTuple<vector<string>>(string&& arguments){return make_tuple(stringToVector<string>(std::move(arguments)));}
-        template<> tuple<vector<bool>> oneArgumentToTuple<vector<bool>>(string&& arguments){return make_tuple(stringToVector<bool>(std::move(arguments)));}
+        template<> std::tuple<std::vector<int>>         oneArgumentToTuple<std::vector<int>>         (std::string&& arguments){return make_tuple(stringToVector<int>         (std::move(arguments)));}
+        template<> std::tuple<std::vector<long long>>   oneArgumentToTuple<std::vector<long long>>   (std::string&& arguments){return make_tuple(stringToVector<long long>   (std::move(arguments)));}
+        template<> std::tuple<std::vector<double>>      oneArgumentToTuple<std::vector<double>>      (std::string&& arguments){return make_tuple(stringToVector<double>      (std::move(arguments)));}
+        template<> std::tuple<std::vector<std::string>> oneArgumentToTuple<std::vector<std::string>> (std::string&& arguments){return make_tuple(stringToVector<std::string> (std::move(arguments)));}
+        template<> std::tuple<std::vector<bool>>        oneArgumentToTuple<std::vector<bool>>        (std::string&& arguments){return make_tuple(stringToVector<bool>        (std::move(arguments)));}
 
         template<class T>
-        vector<vector<T>> stringToMatrix(string&& str)
+        std::vector<std::vector<T>> stringToMatrix(std::string&& str)
         {
-            vector<vector<T>> v;
+            std::vector<std::vector<T>> v;
             int bucketCount = 0, commaPos = 0;
             for(int i = 1 ; i < str.size() ; ++i)
                 if(bucketCount == 0 && (str[i] == ',' || i == str.size()-1))
@@ -126,29 +124,31 @@ class managingArgument
                     --bucketCount;
             return v;
         }
-        template<> tuple<vector<vector<int>>> oneArgumentToTuple<vector<vector<int>>>(string&& arguments){return make_tuple(stringToMatrix<int>(std::move(arguments)));}
-        template<> tuple<vector<vector<long long>>> oneArgumentToTuple<vector<vector<long long>>>(string&& arguments){return make_tuple(stringToMatrix<long long>(std::move(arguments)));}
-        template<> tuple<vector<vector<double>>> oneArgumentToTuple<vector<vector<double>>>(string&& arguments){return make_tuple(stringToMatrix<double>(std::move(arguments)));}
-        template<> tuple<vector<vector<string>>> oneArgumentToTuple<vector<vector<string>>>(string&& arguments){return make_tuple(stringToMatrix<string>(std::move(arguments)));}
-        template<> tuple<vector<vector<bool>>> oneArgumentToTuple<vector<vector<bool>>>(string&& arguments){return make_tuple(stringToMatrix<bool>(std::move(arguments)));}
+        template<> std::tuple<std::vector<std::vector<int>>>         oneArgumentToTuple<std::vector<std::vector<int>>>         (std::string&& arguments){return make_tuple(stringToMatrix<int>         (std::move(arguments)));}
+        template<> std::tuple<std::vector<std::vector<long long>>>   oneArgumentToTuple<std::vector<std::vector<long long>>>   (std::string&& arguments){return make_tuple(stringToMatrix<long long>   (std::move(arguments)));}
+        template<> std::tuple<std::vector<std::vector<double>>>      oneArgumentToTuple<std::vector<std::vector<double>>>      (std::string&& arguments){return make_tuple(stringToMatrix<double>      (std::move(arguments)));}
+        template<> std::tuple<std::vector<std::vector<std::string>>> oneArgumentToTuple<std::vector<std::vector<std::string>>> (std::string&& arguments){return make_tuple(stringToMatrix<std::string> (std::move(arguments)));}
+        template<> std::tuple<std::vector<std::vector<bool>>>        oneArgumentToTuple<std::vector<std::vector<bool>>>        (std::string&& arguments){return make_tuple(stringToMatrix<bool>        (std::move(arguments)));}
         
     public :
-        managingArgument(){}
-        ~managingArgument(){}
+        parsingArguments(){}
+        ~parsingArguments(){}
 
         template<class T, class ...Q>
-        tuple<T, Q...> argumentsToTuple(string&& arguments){
+        std::tuple<T, Q...> argumentsToTuple(std::string&& arguments)
+        {
             if constexpr (sizeof ...(Q) == 0)
                 return tuple_cat(
                     oneArgumentToTuple<T>(std::move(arguments)),
                     tuple<Q...>()
                 );
+
             int bucketCount = 0, commaPos = -1;
             bool isString = false;
             for(int i = 0 ; i < arguments.size() ; ++i)
             {
                 if(arguments[i] == '"' || arguments[i] == '\'')
-                    isString = (isString) ? false : true;
+                    isString ^= true;
                 if(isString)
                     continue;
                 if(arguments[i] == '{' || arguments[i] == '[')
@@ -163,26 +163,26 @@ class managingArgument
             }
             if constexpr (sizeof ...(Q) == 1)
                 return tuple_cat(
-                    oneArgumentToTuple<T>(arguments.substr(0,commaPos)),
-                    oneArgumentToTuple<Q...>(arguments.substr(commaPos+1))
+                    oneArgumentToTuple<T>    (arguments.substr(0,commaPos)),
+                    oneArgumentToTuple<Q...> (arguments.substr(commaPos+1))
                 );
             else if constexpr (sizeof ...(Q) > 1)
                 return tuple_cat(
-                    oneArgumentToTuple<T>(arguments.substr(0,commaPos)),
-                    argumentsToTuple<Q...>(arguments.substr(commaPos+1))
+                    oneArgumentToTuple<T>  (arguments.substr(0,commaPos)),
+                    argumentsToTuple<Q...> (arguments.substr(commaPos+1))
                 );
         }
 
-        string stringArgParsing(string&& str)
+        std::string parse(std::string&& str)
         {
             bool isString = false;
-            string newStr = "";
-            for(int i = 2 ; i < str.size()-2 ; ++i)
+            std::string newStr = "";
+            for(int i = 0 ; i < str.size() ; ++i)
             {
                 if(isString && str[i] == ' ' || str[i] != ' ')
                     newStr.push_back(str[i]);
                 if(str[i] == '\"' || str[i] == '\'')
-                    isString = (isString) ? false : true;
+                    isString ^= true;
             }
             return newStr;
         }
@@ -191,75 +191,19 @@ class managingArgument
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 template<class... ARG, class FUNC>
-void printFunctionReturn(FUNC&& f, string&& args)
+void printFunctionReturn(FUNC&& f, std::string&& args)
 {
     managingPrinting MP;
-    managingArgument MA;
-    auto answer = apply(f,MA.argumentsToTuple<ARG...>(MA.stringArgParsing(std::move(args))));//2abcdede//
-    /*const 절대 금지*/
-    MP.printReturn(answer);
+    parsingArguments MA;
+    try
+    {
+        auto answer = apply(f,MA.argumentsToTuple<ARG...>(MA.parse(std::move(args))));//2abcdede//
+        MP.printReturn(answer);
+    }
+    catch(const std::exception& e)
+    {
+        std::cout << "Typed arguments caused Error : " << std::endl;
+        std::cout << "Review your arguments" << std::endl;
+    }
     return;
 }
-/*
-using T = variant<int,long long,double,char,string,bool,
-                    vector<int>,vector<long long>,vector<double>,vector<string>,vector<bool>>;
-T oneArgumentToTuple(string&& arguments){
-    const char s = arguments[0];
-    if(s == '"') return arguments.substr(1,arguments.size()-1);
-    if(s == '\'') return arguments[1];
-    if(s == '[' || s == '{')
-    {
-        
-    }
-    if(arguments.find('.') == arguments.size()) return stod(arguments);
-    if(arguments == "true") return true;
-    if(arguments == "false") return false; 
-    long long temp = stoll(arguments);
-    if(INT_MIN <= temp && temp <= INT_MAX) return (int)temp;
-    return temp;
-}
-template<class FUNC>
-void argumentsToTuple(FUNC& f, string&& arguments){
-    arguments += ',';
-    int bucketCount = 0, commaPos = -1;
-    bool isString = false;
-    vector<string> argumentsVector;
-    for(int i = 0 ; i < arguments.size() ; ++i)
-    {
-        if(arguments[i] == '"' || arguments[i] == '\'')
-            isString = (isString) ? false : true;
-        if(isString)
-            continue;
-        if(arguments[i] == '{' || arguments[i] == '[')
-            ++bucketCount;
-        else if(arguments[i] == '}' || arguments[i] == ']')
-            --bucketCount;
-        else if(bucketCount == 0 && arguments[i] == ',')
-        {
-            argumentsVector.push_back(arguments.substr(commaPos+1,i-commaPos-1));
-            commaPos = i;  
-        }
-    }
-    auto argumentTuple = make_tuple();
-    visit([&](auto&& arg1){
-        if(argumentsVector.size() == 1)
-        {
-            auto Answer = f(arg1);
-            Printing<decltype(Answer)> printing(Answer);
-        }
-        else
-        {
-            visit([&](auto&& arg2){
-            if(argumentsVector.size() == 2)
-            {
-                //auto Answer = f(arg1,arg2);
-                //Printing<decltype(Answer)> printing(Answer);
-            }
-            // else
-            // {
-
-            // }
-        },oneArgumentToTuple(std::move(argumentsVector[1])));
-        }
-    },oneArgumentToTuple(std::move(argumentsVector[0])));
-}*/
