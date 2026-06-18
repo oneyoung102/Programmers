@@ -37,16 +37,6 @@
   #include <string>
   ...
   ```   
-     
-  3. 매개변수의 자료형 입력하기   
-  `int solution(int n, vector<int> v)`에서 `int`와 `vector<int>`를 복사하여 `,`으로 연결하여   
-  `#define TYPE_OF_ARGUMENTS` 옆에 한 칸 이상의 공백을 두고 입력합니다.
-  
-  ```c++
-  #define TYPE_OF_ARGUMENTS        int, vector<int>
-  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  ```
-
 
   
 - #### 테스트케이스 인수 전달하기   
@@ -75,12 +65,12 @@
 
   **프로그래머스**에서는 함수명은 항상 `solution`입니다. 그러나 다른 용도로 사용할 경우,   
   
-  `printFunctionReturn<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
+  `printFunctionReturn(solution,TO_STRING(ARGUMENTS))`에서 `solution`을 **값을 출력하고자 하는 함수명**으로 변경하세요.
   ```c++
   #include "PrintFunctionReturn.cpp"
   int main()
   {
-      printFunctionReturn<TYPE_OF_ARGUMENTS>(solution,TO_STRING(ARGUMENTS));
+      printFunctionReturn(solution,TO_STRING(ARGUMENTS));
       return 0;
   }
   ```
