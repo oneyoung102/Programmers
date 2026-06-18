@@ -2,10 +2,12 @@
 
 using namespace std;
 
+//현재는 예시입니다. solution 함수를 수정하세요
 int solution(int a, vector<int> vec) {
     int answer = a + vec.at(0);
     return answer;
 }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #define ARGUMENTS                ((  1, [2,3,4]  )) // <- 괄호 두 쌍 안에 인수 입력
 #define TYPE_OF_ARGUMENTS        int, vector<int>
