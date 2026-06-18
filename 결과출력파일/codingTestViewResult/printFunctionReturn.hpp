@@ -134,50 +134,46 @@ class parsingArguments
         parsingArguments(){}
         ~parsingArguments(){}
 
-        template<class T, class ...Q>
-        std::tuple<T, Q...> argumentsToTuple(std::string&& arguments)
+        template<class P>
+        typename P::tuple argumentsToTuple(std::string&& arguments)
         {
-            if constexpr (sizeof ...(Q) == 0)
-                return tuple_cat(
-                    oneArgumentToTuple<T>(std::move(arguments)),
-                    tuple<Q...>()
-                );
-
-            int bucketCount = 0, commaPos = -1;
-            bool isString = false;
-            for(int i = 0 ; i < arguments.size() ; ++i)
+            if constexpr (P::Length == 0)
+                return std::tuple<>{};
+            else if constexpr (P::Length == 1)
+                return oneArgumentToTuple<typename P::head>(std::move(arguments));
+            else
             {
-                if(arguments[i] == '"' || arguments[i] == '\'')
-                    isString ^= true;
-                if(isString)
-                    continue;
-                if(arguments[i] == '{' || arguments[i] == '[')
-                    ++bucketCount;
-                else if(arguments[i] == '}' || arguments[i] == ']')
-                    --bucketCount;
-                else if(bucketCount == 0 && arguments[i] == ',')
+                int bucketCount = 0, commaPos = -1;
+                bool isString = false;
+                for(int i = 0 ; i < arguments.size() ; ++i)
                 {
-                    commaPos = i;
-                    break;
+                    if(arguments[i] == '"' || arguments[i] == '\'')
+                        isString ^= true;
+                    if(isString)
+                        continue;
+                    if(arguments[i] == '{' || arguments[i] == '[')
+                        ++bucketCount;
+                    else if(arguments[i] == '}' || arguments[i] == ']')
+                        --bucketCount;
+                    else if(bucketCount == 0 && arguments[i] == ',')
+                    {
+                        commaPos = i;
+                        break;
+                    }
                 }
+                    
+                return tuple_cat(
+                    oneArgumentToTuple<typename P::head> (arguments.substr(0,commaPos)),
+                argumentsToTuple<typename P::tail>  (arguments.substr(commaPos+1))
+                );
             }
-            if constexpr (sizeof ...(Q) == 1)
-                return tuple_cat(
-                    oneArgumentToTuple<T>    (arguments.substr(0,commaPos)),
-                    oneArgumentToTuple<Q...> (arguments.substr(commaPos+1))
-                );
-            else if constexpr (sizeof ...(Q) > 1)
-                return tuple_cat(
-                    oneArgumentToTuple<T>  (arguments.substr(0,commaPos)),
-                    argumentsToTuple<Q...> (arguments.substr(commaPos+1))
-                );
         }
 
         std::string parse(std::string&& str)
-        {
+        {   
             bool isString = false;
             std::string newStr = "";
-            for(int i = 0 ; i < str.size() ; ++i)
+            for(int i = 2 ; i < str.size()-2 ; ++i)
             {
                 if(isString && str[i] == ' ' || str[i] != ' ')
                     newStr.push_back(str[i]);
@@ -188,16 +184,46 @@ class parsingArguments
         }
 };
 
+template<class... Ts>
+struct type_list {
+    using tuple = std::tuple<Ts...>;
+    using head = void;
+    using tail = type_list<>;
+    static constexpr size_t Length = sizeof...(Ts);
+};
+
+template<class Head, class... Tail>
+struct type_list<Head, Tail...>
+{
+    using head = Head;
+    using tail = type_list<Tail...>;
+    using tuple = std::tuple<Head, Tail...>;
+    static constexpr size_t Length = 1 + sizeof ... (Tail);
+};
+
+template<class T>
+class functionTraits;
+
+template<class T, class ... ARGS>
+class functionTraits<T(&)(ARGS...)>
+{
+    public :
+        using returnType = T;
+        using argumentTypes = type_list<ARGS...>;
+};
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-template<class... ARG, class FUNC>
+
+template<class FUNC>
 void printFunctionReturn(FUNC&& f, std::string&& args)
 {
     managingPrinting MP;
     parsingArguments MA;
     try
     {
-        auto answer = apply(f,MA.argumentsToTuple<ARG...>(MA.parse(std::move(args))));//2abcdede//
+        using F = functionTraits<FUNC>;
+        typename F::returnType answer = apply(f,MA.argumentsToTuple<typename F::argumentTypes>(MA.parse(std::move(args))));//2abcdede//
         MP.printReturn(answer);
     }
     catch(const std::exception& e)
