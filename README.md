@@ -372,6 +372,10 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1830.%E2%80%85브라이언의%E2%80%85고민)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/3f212843-9541-4fd4-ab4d-fb55b3376937" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/1838.%E2%80%85몸짱%E2%80%85트레이너%E2%80%85라이언의%E2%80%85고민)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/e31dd492-47ff-4655-8d3c-31ce49e023e0" />
+](https://github.com/oneyoung102/Programmers/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/468380.%E2%80%85%EC%A0%9C%EA%B3%B1%E2%80%85%EA%B0%9C%EC%88%98%E2%80%85%EB%B0%B0%EC%97%B4)
+[<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/568c7b79-2220-4a07-80a5-46f95c46eec2" />
+](https://github.com/oneyoung102/Programmers/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/468378.%E2%80%85%EB%B3%B4%EB%AC%BC%E2%80%85%EC%B0%BE%EA%B8%B0)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/68250243-586e-4999-be4c-2334fa4a15e0" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/131702.%E2%80%85고고학%E2%80%85최고의%E2%80%85발견)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/be9a7d7e-1dc8-4190-a62b-e7a3dc7a7084" />
