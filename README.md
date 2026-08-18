@@ -529,7 +529,7 @@
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/3/43162.%E2%80%85네트워크)
 [<img id="4lv" width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/33af6567-62a3-4912-b0fa-a8df8048a7f8" />
 ](https://github.com/oneyoung102/Programmers/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/389629.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%ED%81%B0%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95%E2%80%85%EB%8D%A9%EC%96%B4%EB%A6%AC)<!--4레벨-->
-[<img idth="801" height="62" alt="image" src="https://github.com/user-attachments/assets/c866ca5c-dc2f-4561-8fa3-4e62cfff44d1" />
+[<img idth="801" height="61" alt="image" src="https://github.com/user-attachments/assets/c866ca5c-dc2f-4561-8fa3-4e62cfff44d1" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/4/118670.%E2%80%85행렬과%E2%80%85연산)
 [<img width="801" height="61" alt="image" src="https://github.com/user-attachments/assets/7e3259de-4806-4a34-ba0f-d4b2f8195749" />
 ](https://github.com/oneyoung102/Programmers/tree/main/프로그래머스/4/62050.%E2%80%85지형%E2%80%85이동)
